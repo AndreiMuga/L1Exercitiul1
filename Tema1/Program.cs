@@ -8,18 +8,18 @@ class Program
         /*Scrieti un program care citind de la tastaura cele trei dimensiuni ale unui
 paralelipiped dreptunghic, va afisa volumul lui*/
 
-        int Lungimea;
+        int lungimea;
         int latimea;
         int inaltimea;
         Console.WriteLine("Introduceti lungimea paralepipedului dreptunghic: ");
-        Lungimea = Convert.ToInt32(Console.ReadLine());
+        lungimea = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Introduceti latimea paralepipedului dreptunghic: ");
         latimea = Convert.ToInt32( Console.ReadLine());
         Console.WriteLine("Introduceti inaltime paralelipipedului dreptunghic: ");
         inaltimea = Convert.ToInt32(Console.ReadLine());
-        int rezultat;
+        int rezultat = lungimea + latimea + inaltimea;
         Console.WriteLine();
-        Console.WriteLine("Volumul paralelipipedului dreptunghiului este: " + (Lungimea * latimea *  inaltimea));
+        Console.WriteLine("Volumul paralelipipedului dreptunghiului este: " + rezultat);
     }
 
 }
